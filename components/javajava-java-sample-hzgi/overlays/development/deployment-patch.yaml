@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: javajava-java-sample-hzgi
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-kdpj-tenant/e2e-java/javajava-java-sample-hzgi@sha256:6c676ee1a4b91ca7131c46deeaff33f336911f78eacc09abbac654ae6a1b3006
+        name: my-java-springboot
+        resources: {}
+status: {}
