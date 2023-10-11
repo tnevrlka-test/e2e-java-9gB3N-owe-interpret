@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: javajava-java-sample-hzgi
     spec:
       containers:
-      - image: java-springboot-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-kdpj-tenant/e2e-java/javajava-java-sample-hzgi@sha256:6c676ee1a4b91ca7131c46deeaff33f336911f78eacc09abbac654ae6a1b3006
         name: my-java-springboot
         ports:
         - containerPort: 8081
